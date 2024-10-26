@@ -1,9 +1,14 @@
 import streamlit as st
 import pandas as pd
+st.html(
+    "<meta name="google-site-verification" content="-TcYBwldNuZcQy884T7Q3VHG0OmWEtURROKPPeuoM2Y" />"
+)
 st.set_page_config(page_title='Data Analysis', page_icon ="📊", layout = 'wide', initial_sidebar_state = 'auto')
 st.title("Data Analysis For CSV file")
 
 st.write("You can find some weather CSV files at [weatherdownloader.oikolab.com/app](https://weatherdownloader.oikolab.com/app)")
+
+
 
 uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
 
