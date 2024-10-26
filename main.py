@@ -3,6 +3,8 @@ import pandas as pd
 st.set_page_config(page_title='Data Analysis', page_icon ="📊", layout = 'wide', initial_sidebar_state = 'auto')
 st.title("Simple Data Dashboard")
 
+st.write("You can find some weather CSV files at [link](https://weatherdownloader.oikolab.com/app)")
+
 uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
 
 if uploaded_file is not None:
