@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
-st.html(
-    "<meta name="google-site-verification" content="-TcYBwldNuZcQy884T7Q3VHG0OmWEtURROKPPeuoM2Y" />"
-)
+
 st.set_page_config(page_title='Data Analysis', page_icon ="📊", layout = 'wide', initial_sidebar_state = 'auto')
 st.title("Data Analysis For CSV file")
 
