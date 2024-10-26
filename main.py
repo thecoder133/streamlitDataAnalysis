@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-
+st.beta_set_page_config(page_title='Data Analysis', page_icon ="📊", layout = 'wide', initial_sidebar_state = 'auto')
 st.title("Simple Data Dashboard")
 
 uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
