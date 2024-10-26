@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 st.set_page_config(page_title='Data Analysis', page_icon ="📊", layout = 'wide', initial_sidebar_state = 'auto')
-st.title("Simple Data Dashboard")
+st.title("Data Analysis For CSV file")
 
 st.write("You can find some weather CSV files at [weatherdownloader.oikolab.com/app](https://weatherdownloader.oikolab.com/app)")
 
